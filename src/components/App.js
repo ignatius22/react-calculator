@@ -1,9 +1,10 @@
 import React from 'react';
+
 import '../App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1>React Calculator</h1>
