@@ -11,7 +11,7 @@ class App extends Component{
     return(
       <div>
        <h3>Class components with calc</h3>
-      <Display calculation='helloooo'/>
+      <Display calculation='hello'/>
       </div>
 
     )
