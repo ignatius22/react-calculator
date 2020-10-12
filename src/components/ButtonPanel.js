@@ -1,44 +1,39 @@
-import React from 'react'
+import React from 'react';
+import Button from './Button';
 
-const ButtonPanel = () =>{
-  return(
-    <>
-    <div>
-      <button>AC</button>
-      <button>+/-</button>
-      <button>%</button>
-      <button>÷</button>
+const ButtonPanel = () => (
+  <>
+    <div className="group1">
+      <Button name="AC" />
+      <Button name="+/-" />
+      <Button name="%" />
+      <Button name="÷" />
+    </div>
+    <div className="group2">
+      <Button name="7" />
+      <Button name="8" />
+      <Button name="9" />
+      <Button name="X" />
+    </div>
+    <div className="group3">
+      <Button name="4" />
+      <Button name="5" />
+      <Button name="6" />
+      <Button name="-" />
+    </div>
+    <div className="group4">
+      <Button name="1" />
+      <Button name="2" />
+      <Button name="3" />
+      <Button name="+" />
+    </div>
+    <div className="group5">
+      <Button name="0" />
+      <Button name="." />
+      <Button name="=" />
     </div>
 
-    <div>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>X</button>
-    </div>
-    <div>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-    </div>
-
-    <div>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>+</button>
-    </div>
-
-    <div>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
-    </div>
-
-
-    </>
-  )
-}
-
+  </>
+);
 
 export default ButtonPanel;

@@ -1,25 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../App.css';
-import Display from '../components/Display';
-import Button from '../components/Button';
-import ButtonPanel from '../components/ButtonPanel'
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
-class App extends Component{
-
-
-  render(){
-    return(
-      <div className='App'>
-       <h3>Calculator App</h3>
-        <Display calculation='hello'/>
-        <Button  buttonName = 'click'/>
-        <ButtonPanel/>
-      </div>
-
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <h1>React Calculator</h1>
+      <Display />
+      <ButtonPanel />
+    </div>
+  );
 }
-
-
 
 export default App;

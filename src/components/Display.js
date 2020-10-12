@@ -1,15 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Display = ({calculation = 0}) =>{
+const Display = ({ result }) => (
+  <div>
+    <h6>{result}</h6>
+  </div>
+);
 
-  return(
-    <div>
-       <h1>{calculation}</h1>
-    </div>
+Display.propTypes = {
+  result: PropTypes.string,
+};
 
-  )
-}
-
-
+Display.defaultProps = {
+  result: '0',
+};
 
 export default Display;
