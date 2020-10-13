@@ -1,8 +1,15 @@
 import React from 'react';
 
-const App = () => (
+import '../App.css';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
-  <h1>hello calc</h1>
+const App = () => (
+  <div className="App">
+    <h1>React Calculator</h1>
+    <Display />
+    <ButtonPanel />
+  </div>
 );
 
 export default App;
