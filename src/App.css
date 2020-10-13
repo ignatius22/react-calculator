@@ -1,7 +1,17 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.container {
   display: flex;
   flex-direction: column;
+  width: 700px;
+}
+
+.title {
+  display: flex;
   justify-content: center;
-  align-items: center;
 }

@@ -6,9 +6,11 @@ import ButtonPanel from '../components/ButtonPanel/ButtonPanel';
 
 const App = () => (
   <div className="App">
-    <h1>React Calculator</h1>
-    <Display />
-    <ButtonPanel />
+   <div className='container'>
+     <h1 className='title'>React Calculator</h1>
+      <Display />
+      <ButtonPanel />
+    </div>
   </div>
 );
 
