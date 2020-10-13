@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../Display/Display.css'
+import './Display.css';
 
 const Display = ({ result }) => (
-  <div className='display'>
+  <div className="display">
     <h6>{result}</h6>
   </div>
 );
