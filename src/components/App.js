@@ -1,8 +1,8 @@
 import React from 'react';
 
 import '../App.css';
-import Display from './Display';
-import ButtonPanel from './ButtonPanel';
+import Display from '../components/Display/Display';
+import ButtonPanel from '../components/ButtonPanel/ButtonPanel';
 
 const App = () => (
   <div className="App">
