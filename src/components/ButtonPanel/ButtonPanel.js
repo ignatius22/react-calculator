@@ -6,13 +6,13 @@ import buttonGroup from '../ButtonGroup/ButtonGroup';
 const ButtonPanel = () => (
   <div className="panel">
     <div className="group">
-      {buttonGroup.map((button, i) => (button.name === '0'
-        ? <Button key={i} name={button.name} wide color="#dfdfdf" />
+      {buttonGroup.map(button => (button.name === '0'
+        ? <Button key={button.id} name={button.name} wide color="#dfdfdf" />
         : (button.name === '+' || button.name === '-'
           || button.name === '=' || button.name === 'X'
           || button.name === '÷')
-          ? <Button key={i} name={button.name} />
-          : <Button key={i} name={button.name} color="#dfdfdf" />))}
+          ? <Button key={button.id} name={button.name} />
+          : <Button key={button.id} name={button.name} color="#dfdfdf" />))}
     </div>
   </div>
 );
