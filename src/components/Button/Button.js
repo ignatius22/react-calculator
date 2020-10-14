@@ -9,6 +9,7 @@ const Button = ({ name, color, wide }) => (
     style={{ backgroundColor: color }}
   >
     {name}
+
   </button>
 
 );
@@ -16,7 +17,7 @@ const Button = ({ name, color, wide }) => (
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   wide: PropTypes.bool,
-  color: PropTypes.string,
+  color: PropTypes.string
 };
 
 Button.defaultProps = {
