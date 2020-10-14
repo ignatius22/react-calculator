@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../App/App.css';
+import './App.css';
 import Display from '../Display/Display';
 import ButtonPanel from '../ButtonPanel/ButtonPanel';
 
