@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../Button/Button';
-import './ButtonPanel.css';
 import buttonGroup from '../ButtonGroup/ButtonGroup';
 
 const ButtonPanel = () => (
