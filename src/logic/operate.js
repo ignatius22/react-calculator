@@ -7,14 +7,13 @@ const operate = (numberOne, numberTwo, operation) => {
 
   if (operation === '+') {
     result = firstNumber.plus(secondNumber);
-
   } else if (operation === '-') {
     result = firstNumber.minus(secondNumber);
   } else if (operation === 'x') {
     result = firstNumber.times(secondNumber);
   } else if (operation === '÷') {
     result = firstNumber.div(secondNumber);
-  } else if (operation === '%') {
+  } else if (operation === 100) {
     result = firstNumber.mod(secondNumber);
   }
 
