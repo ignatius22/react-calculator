@@ -14,9 +14,9 @@
   <h3 align="center"> This project is about building a calculator for Math-magicians Inc using create-react-app. </h3>
 
   <p align="center">
-    <a href="https://github.com/ignatius22/-React-Project---Calculator">Report Bug</a>
+    <a href="https://github.com/ignatius22/react-calculator">Report Bug</a>
     ·
-    <a href="https://github.com/ignatius22/-React-Project---Calculator/issues">Request Feature</a>
+    <a href="https://github.com/ignatius22/react-calculator">Request Feature</a>
   </p>
 </p>
 
@@ -43,7 +43,7 @@ This is a calculator app built with react using big.js for arbitrary-precision d
 
 ## Live Link (Heroku)
 
-[Click here]( https://calculator-app-v1.herokuapp.com/)
+[Click here]( https://calculator-alpha.herokuapp.com/)
 
 <!-- INSTALLATION -->
 
@@ -51,7 +51,7 @@ This is a calculator app built with react using big.js for arbitrary-precision d
 
 1. Clone this repository
 ```sh
-git clone https://git@github.com:ignatius22/-React-Project---Calculator.git
+git clone https://github.com/ignatius22/react-calculator
 
 ```
 2. Open the project Directory in your local machine
@@ -94,15 +94,15 @@ Give a ⭐️ if you like this project!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ignatius22/-React-Project---Calculator.svg?style=flat-square
-[contributors-url]: https://github.com/ignatius22/-React-Project---Calculator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ignatius22/-React-Project---Calculator.svg?style=flat-square
-[forks-url]: https://github.com/ignatius22/-React-Project---Calculator/network/members
-[stars-shield]: https://img.shields.io/github/stars/ignatius22/-React-Project---Calculator.svg?style=flat-square
-[stars-url]: https://github.com/ignatius22/-React-Project---Calculator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ignatius22/-React-Project---Calculator.svg?style=flat-square
-[issues-url]: https://github.com/ignatius22/-React-Project---Calculator/issues
+[contributors-shield]: https://img.shields.io/github/contributors/ignatius22/react-calculator.svg?style=flat-square
+[contributors-url]: https://github.com/ignatius22/react-calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ignatius22/react-calculator.svg?style=flat-square
+[forks-url]: https://github.com/ignatius22/ignatius22/react-calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/ignatius22/react-calculator.svg?style=flat-square
+[stars-url]: https://github.com/ignatius22/ignatius22/react-calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ignatius22/react-calculator.svg?style=flat-square
+[issues-url]: https://github.com/ignatius22/react-calculator/issues
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed..
