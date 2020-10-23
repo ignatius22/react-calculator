@@ -1,18 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Display from '../Display/Display';
 import ButtonPanel from '../ButtonPanel/ButtonPanel';
-// eslint-disable-next-line no-unused-vars
+
 import calculate from '../../logic/calculate';
 
-const App = () => (
-  <div className="App">
-    <div className="container">
-      <h1 className="title">React Calculator</h1>
-      <Display />
-      <ButtonPanel />
-    </div>
-  </div>
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    // eslint-disable-next-line react/no-access-state-in-setstate
+    this.setState(calculate(this.state, buttonName));
+  }
+
+  render() {
+    const { next, total } = this.state;
+    const result = total || next || '0';
+
+    return (
+      <div className="App">
+        <div className="container">
+          <h1 className="title">React Calculator</h1>
+          <Display result={result} />
+          <ButtonPanel clickHandler={this.handleClick} />
+        </div>
+      </div>
+    );
+  }
+}
 
 export default App;

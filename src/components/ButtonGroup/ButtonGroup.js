@@ -6,7 +6,7 @@ const ButtonGroup = [
   { id: 5, name: '7' },
   { id: 6, name: '8' },
   { id: 7, name: '9' },
-  { id: 8, name: 'X' },
+  { id: 8, name: 'x' },
   { id: 9, name: '4' },
   { id: 10, name: '5' },
   { id: 11, name: '6' },
