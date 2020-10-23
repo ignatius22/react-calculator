@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.css';
 
-const Button = ({ name, color, wide,clickHandler }) => (
+const Button = ({
+  name, color, wide, clickHandler,
+}) => (
   <button
     className={wide ? 'wide' : 'normal'}
     type="button"
@@ -20,6 +22,7 @@ Button.propTypes = {
   wide: PropTypes.bool,
   color: PropTypes.string,
   clickHandler: PropTypes.func.isRequired,
+
 };
 
 Button.defaultProps = {
